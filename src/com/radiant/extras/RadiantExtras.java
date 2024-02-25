@@ -40,7 +40,7 @@ public class RadiantExtras extends SettingsPreferenceFragment {
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.Radiant;
+        return MetricsProto.MetricsEvent.RADIANT;
     }
 
     public static void lockCurrentOrientation(Activity activity) {
