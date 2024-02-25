@@ -18,6 +18,36 @@
     android:title="@string/radiant_extras_title" >
 
      <Preference
+          android:key="themes_category"
+          android:title="@string/themes_title" 
+          android:fragment="com.radiant.extras.fragments.MonetSettings"
+          android:icon="@drawable/ic_themer_ext"/>
+
+     <Preference
+          android:key="button_category"
+          android:title="@string/button_title" 
+          android:fragment="com.radiant.extras.fragments.ButtonSettings"
+          android:icon="@drawable/ic_settings_buttons"/>
+
+     <Preference
+          android:key="lockscreen_category"
+          android:title="@string/lockscreen_title" 
+          android:fragment="com.radiant.extras.fragments.LockScreenSettings"
+          android:icon="@drawable/ic_settings_lockscreens"/>
+
+     <Preference
+          android:key="power_category"
+          android:title="@string/powermenu_title" 
+          android:fragment="com.radiant.extras.fragments.PowerMenuSettings"
+          android:icon="@drawable/ic_settings_powermenu"/>
+
+     <Preference
+          android:key="statusbar_category"
+          android:title="@string/statusbar_title" 
+          android:fragment="com.radiant.extras.fragments.StatusBarSettings"
+          android:icon="@drawable/ic_settings_statusbar"/>
+
+     <Preference
           android:key="gestures_category"
           android:title="@string/gestures_title"
           android:fragment="com.radiant.extras.fragments.GestureSettings"
