@@ -47,4 +47,12 @@
    <string name="double_tap_sleep_gesture_title">Tap to sleep</string>
    <string name="double_tap_sleep_gesture_summary">Double-tap anywhere on the status bar to put the device to sleep</string>
 
+   <!-- Media art -->
+   <string name="lockscreen_media_art_options_title">Media cover art</string>
+   <string name="media_art_title">Media cover art</string>
+   <string name="media_art_summary">Display media cover art when available</string>
+
+   <!-- Lock screen cover art -->
+   <string name="lockscreen_media_blur_title">Media art blur level</string>
+
 </resources>
