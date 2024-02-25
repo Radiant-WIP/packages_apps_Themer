@@ -24,4 +24,15 @@
           android:summary="@string/double_tap_sleep_lockscreen_summary"
           android:defaultValue="true" /> 
 
+    <PreferenceCategory
+        android:title="@string/network_traffic_title">
+
+        <Preference
+            android:key="network_traffic_settings"
+            android:title="@string/network_traffic_title"
+            android:summary="@string/network_traffic_summary"
+            android:fragment="com.radiant.extras.fragments.NetworkTraffic"/>
+
+    </PreferenceCategory>
+
 </PreferenceScreen>
