@@ -40,4 +40,8 @@
     <string name="navbar_invert_layout_title">Invert layout</string>
 
 
+   <!-- Double Tap to Sleep Lockscreen -->
+   <string name="double_tap_sleep_lockscreen_title">Double tap to sleep</string>
+   <string name="double_tap_sleep_lockscreen_summary">Double tap anywhere on the lockscreeen to sleep</string>
+
 </resources>
